@@ -4,7 +4,7 @@ const token = 'XXXXXXXXXXXXXXXXX';
 
 
 bot.on("ready",()=>{
-    console.log(`Connecté en tant que ${client.user.tag}!`);
+    console.log(`Connecté en tant que ${bot.user.tag}!`);
 });
 
 
